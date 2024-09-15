@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nosotros</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #1a1a2e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #00aaff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease-in-out;
+        }
+        
+        nav ul li a:hover {
+            color: #0088cc;
+        }
+        
+        main {
+            display: flex;
+            height: 80vh;
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+        }
+        
+        .message {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        footer {
+            background-color: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer p {
+            font-size: 1rem;
+        }
+        
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+        
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            main {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .message, .image {
+                flex: none;
+                padding: 10px;
+            }
+        }
+        .blue-heart {
+            color: #00aaff; /* Azul claro */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tu y Yo</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/viernes13.html">Viernes 13</a></li>
+                <li><a href="/floresamarillas.html">Flores Amarillas</a></li>
+                <li><a href="/oct4.html">Octubre 4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="message">
+            <p>Te amo, no solo con el corazón sino con la mente, tanto q ella me dice, que importas mas q cualquiera, q importas mas q el mundo, y que si tengo q escoger entre el mundo o tu, te elegiria mil veces a ti ❤️</p>
+        </div>
+        <div class="image">
+            <a href="https://example.com" target="_blank">
+                <img src="https://scontent.xx.fbcdn.net/v/t69.46293-2/458164056_1034541761540534_3769533006014875959_n.?stp=dst-jpg_s280x280&_nc_cat=101&ccb=1-7&_nc_sid=942482&_nc_ohc=vyh2olIzoncQ7kNvgHpHQ7D&_nc_ht=scontent.xx&_nc_gid=A5ErcqfypRAp-8ULpBNNOGa&oh=03_Q7cD1QGEKEo1gK_NAZLvl1R8sTUeMqvSKWitQVqNQCknPs_qjQ&oe=66E78415">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span class="blue-heart">❤️</span> TE AMO MI PINCHECHA.</p>
+    </footer>
+</body>
+</html>
